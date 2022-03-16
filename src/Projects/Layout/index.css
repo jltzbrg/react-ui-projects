@@ -50,3 +50,10 @@ a:hover {
 .active:hover {
   padding-left: 10px !important;
 }
+
+@media screen and (max-width: 600px) {
+  .menu-items {
+    height: 100vh;
+    border-bottom-left-radius: 0px;
+  }
+}
