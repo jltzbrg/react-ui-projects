@@ -1,0 +1,42 @@
+.glowing-parent {
+  height: 100vh;
+  background-color: #222222;
+}
+
+.glowing-text-part {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-size-adjust: 1px rgba(255, 255, 255, 0.445);
+}
+
+.glowing-text-part h1 {
+  font-size: 85px;
+  align-items: center;
+  width: 100%;
+}
+
+.glowing-text-part:hover {
+  cursor: pointer;
+  color: white !important;
+  text-shadow: 3px 3px 15px !important;
+}
+
+.glowing-text-part p {
+  color: #222222 !important;
+  font-weight: bold;
+}
+
+.glowing-text-part p:hover {
+  color: white !important;
+  text-shadow: 3px 3px 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .glowing-text-part h1 {
+    font-size: 55px;
+    text-align: center;
+    width: 100%;
+  }
+}
