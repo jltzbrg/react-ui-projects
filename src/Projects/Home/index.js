@@ -8,7 +8,7 @@ function Home() {
       <div className="home-parent">
         <div className="d-flex parts align-items-center">
           <div className="part1 text-center text-white d-flex align-items-center justify-content-center flex-column">
-            <h3 className="my-5 ">
+            <h3 className="my-5" data-aos="slide-right">
               <b>Frontend Developer</b>
             </h3>
             <div className="h-50">
@@ -31,10 +31,13 @@ function Home() {
                 autoplay
               ></lottie-player>
             </div>
-            <h3 className="my-5 ">
+            <h3 className="my-5" data-aos="slide-left">
               <b>UI - Web - Mobile</b>
             </h3>
           </div>
+        </div>
+        <div className="seperator">
+          <span>JULIO</span>
         </div>
       </div>
     </Layout>

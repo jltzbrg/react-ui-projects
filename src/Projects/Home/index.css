@@ -16,3 +16,18 @@
   width: 50%;
   background: linear-gradient(90deg, #180a0a, #9adcff);
 }
+
+.seperator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.seperator span {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 55px;
+  color: white;
+  font-weight: bold;
+}
