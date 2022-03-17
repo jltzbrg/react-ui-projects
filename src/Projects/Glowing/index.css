@@ -1,6 +1,6 @@
 .glowing-parent {
   height: 100vh;
-  background-color: #222222;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
 }
 
 .glowing-text-part {

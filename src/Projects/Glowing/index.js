@@ -17,7 +17,7 @@ function Glowing() {
         </div>
         <div className="glowing-text-part">
           <h1>Julio Litzenberg</h1>
-          <p>Frontend Developer - UI - Mobile - Web</p>
+          <p>Frontend Developer - Mobile & Web</p>
         </div>
       </div>
     </Layout>
