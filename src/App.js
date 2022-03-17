@@ -6,6 +6,7 @@ import Glowing from "./Projects/Glowing";
 import Marketing from "./Projects/Marketing";
 import Colors from "./Projects/Colors";
 import ParallaxEffect from "./Projects/Parallax";
+import CoffieShop from "./Projects/Coffieshop";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/marketing" element={<Marketing />} />
           <Route path="/colors" element={<Colors />} />
           <Route path="/parallax" element={<ParallaxEffect />} />
+          <Route path="/coffieshop" element={<CoffieShop />} />
         </Routes>
       </Router>
     </div>

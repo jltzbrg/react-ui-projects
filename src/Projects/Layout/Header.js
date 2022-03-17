@@ -32,8 +32,8 @@ function Header() {
       path: "/parallax",
     },
     {
-      title: "Starbucks",
-      path: "/starbacks",
+      title: "Coffieshop",
+      path: "/coffieshop",
     },
     {
       title: "Cars Platform",
