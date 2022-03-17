@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../Layout";
+import { FaReact } from "react-icons/fa";
 import "./index.css";
 
 function Home() {
@@ -9,7 +10,8 @@ function Home() {
         <div className="d-flex parts align-items-center">
           <div className="part1 text-center text-white d-flex align-items-center justify-content-center flex-column">
             <h3 className="my-5" data-aos="slide-right">
-              <b>Frontend Developer</b>
+              <FaReact />
+              <b>React Developer</b>
             </h3>
             <div className="h-50">
               <lottie-player

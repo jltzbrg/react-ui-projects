@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../Layout";
+import { FaReact } from "react-icons/fa";
 import "./index.css";
 
 function Rotated() {
@@ -24,7 +25,8 @@ function Rotated() {
                 <b>Julio Litzenberg</b>
               </h1>
               <p data-aos="slide-left">
-                UI - Web - Mobile <b>Developer</b>
+                UI - Web - Mobile <FaReact />
+                <b>Developer</b>
               </p>
             </div>
           </div>
