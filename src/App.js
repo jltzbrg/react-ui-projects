@@ -3,8 +3,10 @@ import "./App.css";
 import Home from "./Projects/Home";
 import Rotated from "./Projects/Rotated";
 import Glowing from "./Projects/Glowing";
+import Marketing from "./Projects/Marketing";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 AOS.init({
   duration: 1500,
 });
@@ -17,6 +19,7 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/rotated" element={<Rotated />} />
           <Route path="/glowing" element={<Glowing />} />
+          <Route path="/marketing" element={<Marketing />} />
         </Routes>
       </Router>
     </div>
