@@ -4,6 +4,7 @@ import Home from "./Projects/Home";
 import Rotated from "./Projects/Rotated";
 import Glowing from "./Projects/Glowing";
 import Marketing from "./Projects/Marketing";
+import Colors from "./Projects/Colors";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/rotated" element={<Rotated />} />
           <Route path="/glowing" element={<Glowing />} />
           <Route path="/marketing" element={<Marketing />} />
+          <Route path="/colors" element={<Colors />} />
         </Routes>
       </Router>
     </div>

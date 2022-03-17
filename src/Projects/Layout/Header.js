@@ -24,8 +24,8 @@ function Header() {
       path: "/marketing",
     },
     {
-      title: "Bubbles",
-      path: "/bubbles",
+      title: "Colors",
+      path: "/colors",
     },
     {
       title: "Parallax",

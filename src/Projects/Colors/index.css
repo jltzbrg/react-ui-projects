@@ -1,0 +1,95 @@
+.colors-parent {
+  height: 100vh;
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  /* was für eine Animattion, wie lange, welcher Typ, Dauer */
+  animation: container-animation 5s ease infinite;
+}
+
+.letter {
+  font-size: 110px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.letter0 {
+  animation: letter-anim 3s ease infinite;
+}
+
+.letter1 {
+  animation: letter-anim 5s ease infinite;
+}
+
+.letter2 {
+  animation: letter-anim 5s ease infinite;
+}
+
+.letter3 {
+  animation: letter-anim 7s ease infinite;
+}
+
+.letter4 {
+  animation: letter-anim 4s ease infinite;
+}
+
+@keyframes letter-anim {
+  0% {
+    color: white;
+    font-size: 150px;
+    transform: rotate(-25deg);
+  }
+  25% {
+    color: khaki;
+    font-size: 50px;
+    transform: rotate(-15deg);
+  }
+  50% {
+    color: chocolate;
+    font-size: 120px;
+    transform: rotate(-5deg);
+  }
+  75% {
+    color: royalblue;
+    font-size: 70px;
+    transform: rotate(-65deg);
+  }
+  100% {
+    color: floralwhite;
+    font-size: 150px;
+    transform: rotate(-95deg);
+  }
+}
+
+@keyframes container-animation {
+  0% {
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    color: white;
+  }
+  25% {
+    background-image: linear-gradient(
+      to top,
+      #3f51b1 0%,
+      #5a55ae 13%,
+      #7b5fac 25%,
+      #8f6aae 38%,
+      #a86aa4 50%,
+      #cc6b8e 62%,
+      #f18271 75%,
+      #f3a469 87%,
+      #f7c978 100%
+    );
+    color: khaki;
+  }
+  50% {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    color: chocolate;
+  }
+  75% {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    color: royalblue;
+  }
+  100% {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: floralwhite;
+  }
+}
